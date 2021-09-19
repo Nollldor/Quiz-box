@@ -1,0 +1,122 @@
+.news {
+    position: absolute;
+    margin-top: 769px;
+
+}
+.news .title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.361em;
+    position: relative;
+    margin-bottom: 51px;
+}
+
+.title--new::after {
+    position: absolute;
+    content: url("../img/news title.png");
+    margin-left: 9px;
+    margin-top: 3px;
+}
+.news__item {
+    width: 362px;
+    min-height: 449px;
+    display: inline-block;
+    vertical-align: middle;   
+    margin-right: 20px;
+}
+
+.news__item:last-child {
+    margin-right: 0px;
+}
+
+.news__pic-wrapper {
+    width: 362px;
+    height: 144px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.news__pic-wrapper--backto90 {
+    background: #010101;
+}
+
+.news__pic-wrapper--quizit {
+    background: #150A18;
+}
+
+.news__pic--backto90 {
+    padding: 10px 26px 2px;
+}
+
+.news__pic--quizit {
+    padding: 1px 20px 0px 21px
+}
+
+.news__content {
+    width: 362px;
+    min-height: 305px;
+    color:#000;
+    background: #fff;
+}
+
+.news__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1,375em;
+    padding: 33px 101px 21px 22px;
+}
+
+.news__feature {
+    display: inline-block;
+}
+
+.news__feature-text--min {
+    position: relative;
+    margin: 3px 62px 0px 61px;
+
+}
+
+.news__feature-text--qa {
+    position: relative;
+    margin: 0px 6px 0px 27px;
+}
+
+.news__feature-text--min::before {
+    position: absolute;
+    content: url("../img/news-clock.png");
+    margin: -4px 0px 0px -37px;
+}
+
+.news__feature-text--qa::before {
+    position: absolute;
+    content: url("../img/news-qa.png");
+    margin: -4px 0px 0px -38px;
+}
+
+.news__text {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 24.5px 16px 24.5px 22px;
+    
+}
+
+.news .button {
+    width: 135px;
+    height: 55px;
+    font-size: 14px;
+    line-height: 1.357em;
+    margin-left: 22px;
+    padding: 18px 30px;
+
+}
+
+.news .button--light {
+    background-color: #fff;
+    color: #8F00FF;
+    border: 1px solid #8F00FF;
+    box-sizing: border-box;
+
+}
+
+.news a {
+    display: block;
+}

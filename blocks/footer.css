@@ -1,0 +1,91 @@
+.footer__container {
+    position: absolute;    
+    margin-top: 2821px;
+    padding-bottom: 60px;
+
+}
+
+.footer .logo, .footer .menu, .footer .socials, .footer .contacts{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.footer .logo {
+    margin-top: 6px;
+}
+
+.footer .menu {
+    width: 391px;
+    height: 27px;
+    margin-top: 10px;
+    margin-left: 115px;
+ }
+
+.footer .socials {
+    margin-left: 18px;
+    margin-top: 6px;
+    text-decoration: none;  
+ }
+
+ .footer .contacts {
+     margin-left: 69px;
+ }
+
+
+ .socials__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.socials__item:last-child {
+   margin-right: 0px;
+}
+
+.socials__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.socials__link--telegram {
+    background: url("img/telegram.png");
+}
+
+.socials__link--telegram:hover {
+    background: url("img/telegram_hover.png");
+}
+
+.socials__link--vk {
+    background: url("img/vk.png");
+}
+
+.socials__link--vk:hover {
+    background: url("img/vk_hover.png");
+}
+
+.socials__link--facebook {
+    background: url("img/facebook.png");
+}
+
+.socials__link--facebook:hover {
+    background: url("img/facebook_hover.png");
+}
+
+.socials__link--inst {
+    background: url("img/inst.png");
+}
+
+.socials__link--inst:hover {
+    background: url("img/inst_hover.png");
+}
+
+ .footer .contacts__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1.82em;
+    text-align: right;
+    margin-bottom: 8px;
+    
+ }
