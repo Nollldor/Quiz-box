@@ -93,10 +93,15 @@
     line-height: 1.31em;
     color:#fff;
     text-decoration: none;
-    border-radius: 50%;
     padding: 5px 11px;
 }
 
-.paginator__item .paginator__link--active {
+.paginator__item--active {
     background: #8F00FF;
+    border-radius: 50%;
+}
+
+.paginator__item:hover {
+    background: #8F00FF;
+    border-radius: 50%;
 }
