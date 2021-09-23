@@ -1,45 +1,48 @@
-.logo {
-    width: 168px;
-    height: 27px;
+.header {
+    padding-top: 26px;
+    margin-bottom: 129px;
+    height: 70px;
 }
 
-.header .logo {
-    position: absolute;
-    margin-top: 27px;
+.header__container {
+    position: relative;
 }
 
-.header .menu {
+.logo,
+.menu,
+.menu__item{
+    display: inline-block;
+}
+
+.logo,
+.menu,
+.contacts {
     position: absolute;
-    margin-left: 419px;
-    margin-top: 30px;
+}
+
+.logo{
+    left: 0px
+}
+
+.menu {
+    left: 37%;
+    top: 4%;
 }
 
 .menu__item {
     margin-right: 63px;
-    display: inline-block;
-    vertical-align: middle;
-    text-decoration: none;
 }
 
 .menu__item:last-child {
     margin-right: 0px;
 }
 
-.menu__link {
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    display: inline-block;
-}
-
 .menu__link:hover{
     color: #8F00FF;
 }
 
-.header address {
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 948px;
+.contacts {
+    right: 0;
     text-align: right;
 }
 
@@ -57,3 +60,6 @@
     font-size: 13px;
     line-height: 12px;
 }
+
+
+

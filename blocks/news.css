@@ -1,8 +1,8 @@
 .news {
-    position: absolute;
-    margin-top: 769px;
-
+    height: 549px;
+    margin-bottom: 127px;
 }
+
 .news .title {
     font-weight: bold;
     font-size: 36px;
@@ -22,7 +22,7 @@
     min-height: 449px;
     display: inline-block;
     vertical-align: middle;   
-    margin-right: 20px;
+    margin-right: 23px;
 }
 
 .news__item:last-child {
@@ -95,7 +95,7 @@
 .news__text {
     font-size: 14px;
     line-height: 1.5em;
-    margin: 24.5px 16px 24.5px 22px;
+    margin: 24.5px 16px 40px 22px;
     
 }
 
@@ -115,8 +115,4 @@
     border: 1px solid #8F00FF;
     box-sizing: border-box;
 
-}
-
-.news a {
-    display: block;
 }

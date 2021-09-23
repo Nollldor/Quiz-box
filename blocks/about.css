@@ -1,31 +1,25 @@
 .about {
-    position: absolute;
-    margin-top: 2168px;
+    height: 611px;
+    
 }
 
-.about::after {
-    content: none;
-    width: 1140px;
-    height: 4px;
-    left: 389px;
-    top: 2780px;
-    background: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.1;
+.about__container {
+    position: relative;
 }
 
-.about__pic, .about__textbox {
-    display: inline-block;
-    vertical-align: top;
+.about__pic {
+    margin-bottom: 103px;
 }
 
 .about__textbox {
-    margin-top: 99px;
-    margin-left: -142px;
+    position: absolute;
+    top: 99px;
+    left: 355px;
     width: 785px;
     height: 455px;
     background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
     border-radius: 5px;
+    z-index: 10;
 }
 
 .about__textbox .title {
@@ -45,10 +39,5 @@
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     background: none;
-    display: block;
-}
-
-.about .line {
-    margin-top: 54px;
     display: block;
 }

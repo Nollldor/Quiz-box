@@ -1,31 +1,42 @@
-.footer__container {
-    position: absolute;    
-    margin-top: 2821px;
-    padding-bottom: 50px;
-
+.footer {
+    height: 146px;
+    padding-top: 42px;
 }
 
-.footer .logo, .footer .menu, .footer .socials, .footer .contacts{
-    display:inline-block;
+.footer__container {
+    position: relative;
+}
+
+.footer .logo,
+.footer .menu,
+.footer .socials,
+.footer .contacts {
+    position: absolute;
+}
+
+.footer .logo,
+.footer .menu,
+.foter .menu__item,
+.footer .socials,
+.footer .socials__item,
+.footer .contacts{
+    display: inline-block;
     vertical-align: top;
 }
 
 .footer .logo {
-    margin-top: 6px;
+    top:6px;
 }
 
 .footer .menu {
-    width: 391px;
-    height: 27px;
-    margin-top: 10px;
-    margin-left: 115px;
- }
+    top: 11px;
+    left: 289px;
+}
 
 .footer .socials {
-    margin-left: 18px;
-    margin-top: 6px;
-    text-decoration: none;  
- }
+    top: 6px;
+    right: 264px;
+}
 
  .footer .contacts {
      margin-left: 69px;
@@ -33,7 +44,6 @@
 
 
  .socials__item{
-    display: inline-block;
     vertical-align: middle;
     margin-right: 6px;
 }
@@ -78,6 +88,10 @@
 
 .socials__link--inst:hover {
     background: url("../img/inst_hover.png");
+}
+
+.footer .contacts {
+    text-align: right;
 }
 
  .footer .contacts__description {
