@@ -110,11 +110,9 @@ body {
 }
 
 .button--light {
-    background-color: #fff;
+    background: #fff;
     color: #8F00FF;
     border: 1px solid #8F00FF;
-    box-sizing: border-box;
-
 }
 
 .button--light:hover {
