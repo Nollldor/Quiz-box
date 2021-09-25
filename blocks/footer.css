@@ -1,50 +1,62 @@
 .footer {
     height: 146px;
     padding-top: 42px;
+    background: #17191C;
 }
 
-.footer__container {
-    position: relative;
+.footer--mainpage {
+    padding-top: 23px;
 }
 
-.footer .logo,
-.footer .menu,
-.footer .socials,
-.footer .contacts {
-    position: absolute;
+.footer__container,
+.footer__left,
+.footer__right {
+    display: flex;
+    justify-content: space-between;
 }
 
-.footer .logo,
-.footer .menu,
-.foter .menu__item,
-.footer .socials,
-.footer .socials__item,
-.footer .contacts{
-    display: inline-block;
-    vertical-align: top;
+.footer__left {
+    width: 620px;
+}
+
+.footer__right {
+    width: 507px;
 }
 
 .footer .logo {
-    top:6px;
+    margin-top: 20px;
+}
+
+.footer .menu__list,
+.footer .socials {
+    display: flex;
 }
 
 .footer .menu {
-    top: 11px;
-    left: 289px;
+    width: 365px;
+    height: 27px;
+    margin-top: 25px;
+    margin-left: 20px;
+    
 }
+
+.footer .menu__list {
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
 
 .footer .socials {
-    top: 6px;
-    right: 264px;
+    width: 174px;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-left: 68px;
 }
 
- .footer .contacts {
-     margin-left: 69px;
- }
-
-
- .socials__item{
-    vertical-align: middle;
+.socials__item{
+    display: flex;
     margin-right: 6px;
 }
 
@@ -53,7 +65,6 @@
 }
 
 .socials__link {
-    display: block;
     width: 36px;
     height: 36px;
 }
@@ -91,6 +102,7 @@
 }
 
 .footer .contacts {
+    margin-top: 6px;
     text-align: right;
 }
 
@@ -100,6 +112,11 @@
     font-size: 11px;
     line-height: 1.82em;
     text-align: right;
-    margin-bottom: 8px;
+    color: #9A9A9A;
+    margin-bottom: 3px;
     
+ }
+
+ .footer--mainpage .contacts__description {
+     margin-bottom: 10px;
  }

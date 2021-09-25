@@ -1,28 +1,39 @@
 .news {
     height: 549px;
-    margin-bottom: 127px;
+    margin-bottom: 132px;
 }
 
 .news .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 44px;
+}
+
+.news .title h2 {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.361em;
-    position: relative;
-    margin-bottom: 51px;
+    display: flex;
+    align-items: center;
+    
 }
 
-.title--new::after {
-    position: absolute;
+.title--new h2::after {
     content: url("../img/news title.png");
     margin-left: 9px;
-    margin-top: 3px;
+    margin-top: 10px;
+}
+
+.news__list {
+    display: flex;
 }
 .news__item {
     width: 362px;
     min-height: 449px;
-    display: inline-block;
-    vertical-align: middle;   
-    margin-right: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    margin-right: 25px;
 }
 
 .news__item:last-child {
@@ -56,46 +67,59 @@
     min-height: 305px;
     color:#000;
     background: #fff;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .news__title {
     font-weight: bold;
     font-size: 24px;
     line-height: 1,375em;
-    padding: 33px 101px 21px 22px;
+    padding: 32px 0px 20px 19px;
+}
+
+.news__features {
+    width: 313px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 .news__feature {
-    display: inline-block;
+    display: flex;
+    height: 26px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
 }
 
-.news__feature-text--min {
-    position: relative;
-    margin: 3px 62px 0px 61px;
+.news__feature--min {
+    width: 108px;
+}   
 
+.news__feature--qa {
+    width: 138px;
+} 
+
+.news__feature-icon {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+    
 }
 
-.news__feature-text--qa {
-    position: relative;
-    margin: 0px 6px 0px 27px;
+.news__feature-icon--min {   
+    background: url("../img/news-clock.png");  
 }
 
-.news__feature-text--min::before {
-    position: absolute;
-    content: url("../img/news-clock.png");
-    margin: -4px 0px 0px -37px;
-}
-
-.news__feature-text--qa::before {
-    position: absolute;
-    content: url("../img/news-qa.png");
-    margin: -4px 0px 0px -38px;
+.news__feature-icon--qa {   
+    background: url("../img/news-qa.png");
 }
 
 .news__text {
     font-size: 14px;
     line-height: 1.5em;
-    margin: 24.5px 16px 40px 22px;
+    margin: 0 16px 40px 22px;
     
 }
 

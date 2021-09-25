@@ -1,23 +1,22 @@
 header {
-    margin-bottom: 128px;
+    
+    background: url(../img/background_games_header.png) top center no-repeat;
+    color:white;
+    margin-bottom: 100px;
 }
-
 .header__container{
-    height: 82px;
-    padding-top: 30px;
+    height: 412px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    
     
 }
 
-.header__left,
-.header__right{
+.header__first-row {
     display: flex;
-    align-items: flex-start;
-}
-
-.header__right {
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 95px;
 }
 
 
@@ -35,7 +34,7 @@ header {
     width: 365px;
     height: 27px;
     margin-top: 7px;
-    margin-left: 220px;
+    margin-left: 21px;
 }
 
 .header .menu__list {
@@ -120,7 +119,6 @@ header {
 .breadcrumbs__separator {
     margin: 0 4px;
 }
-
 
 
 
