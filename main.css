@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url(./blocks/normalize.css);
 @import url(./blocks/base.css);
 @import url(./blocks/header.css);
 @import url(./blocks/hello.css);
