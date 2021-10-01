@@ -3,6 +3,7 @@
 @import url(./blocks/base.css);
 @import url(./blocks/header-games.css);
 @import url(./blocks/paginator.css);
-@import url(./blocks/games-section.css);
-@import url(./blocks/partners.css);
+@import url(./blocks/reviews-section.css);
+@import url(./blocks/separator.css);
+@import url(./blocks/review-form.css);
 @import url(./blocks/footer.css);

@@ -76,16 +76,22 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+button {
+    background: transparent;
+    border: none;
+}
+
 .wrapper {
     overflow: hidden;
     min-height: 100%;
+    min-width: 1141px;
 }
 
 .wrapper--mainpage {
     background: url("../img/background.png") top center no-repeat;
 }
 
-.maincontent--games {
+.maincontent--games, .maincontent--reviews {
     color: #000;
 }
 
