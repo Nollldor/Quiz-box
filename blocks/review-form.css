@@ -89,6 +89,7 @@
 
 .button-grey {
     background: #8E8E8E;
+    transition: background-color 1s;
 }
 
 .button-grey:hover {

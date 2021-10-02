@@ -33,6 +33,7 @@
     color: #1A1B1E;
     margin-bottom: 3px;
     line-height: 1.75em;
+    transition: color 1s, text-decoration 1s;
 }
 
 .review__user--active {
@@ -109,6 +110,7 @@
 
 .reviews-section .paginator__link {
     color: black;
+    transition: 1s;
 }
 
 .reviews-section .paginator__link--active {

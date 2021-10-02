@@ -57,7 +57,7 @@ header {
     text-decoration: none;
     text-align: center;
     color: #fff;
-    
+    transition: color 1s;
 }
 
 .menu__link:hover{
@@ -66,7 +66,9 @@ header {
 
 .header .contacts {
     margin-top: 6px;
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .contacts__phone {
@@ -77,11 +79,77 @@ header {
     color: #FFFFFF;
 }
 
-.contacts__info {
+.dropdown {
+    position: relative;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown__container,
+.dropdown:hover .dropdown__description,
+.dropdown:hover .dropdown__container:before {
+    opacity: 1;
+}
+
+.dropdown:hover .dropdown__container {
+    background: #EDEDED;
+}
+
+.dropdown__info {
     font-style: normal;
     text-decoration: underline;
     font-size: 13px;
     line-height: 12px;
+}
+
+.dropdown__container {
+    opacity: 0;
+    position: absolute;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    padding: 11px 19px 15px;
+    text-align: left;
+    width: 160px;
+    border-radius: 5px;
+    top: 190%;
+    right: 0;
+    transition: opacity 1s, background-color 1s;
+}
+
+.dropdown__container:before {
+    opacity: 0;
+    position: absolute;
+    bottom: 99%;
+    left: 60%;
+    border: 10px solid transparent;
+    width: 0;
+    height: 0;
+    border-bottom-color: #EDEDED;
+    content: "";
+    transition: opacity 1s;
+}
+
+.dropdown__container:after {
+    content: "";
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 10px;
+    top: -10px;
+}
+
+.dropdown__description {
+    color: #1E1F20;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.62em;
+    opacity: 0;
+    transition: opacity 1
+}
+
+.dropdown__description--bold {
+    font-weight: bold;
 }
 
 .header__maintitle {

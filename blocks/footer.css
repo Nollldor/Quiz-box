@@ -70,35 +70,35 @@
 }
 
 .socials__link--telegram {
-    background: url("../img/telegram.png");
+    background: url('../img/social_sprites.png') -66px -66px;
 }
 
 .socials__link--telegram:hover {
-    background: url("../img/telegram_hover.png");
+    background: url('../img/social_sprites.png') -122px -66px;
 }
 
 .socials__link--vk {
-    background: url("../img/vk.png");
+    background: url('../img/social_sprites.png') -10px -122px;
 }
 
 .socials__link--vk:hover {
-    background: url("../img/vk_hover.png");
+    background: url('../img/social_sprites.png') -66px -122px;
 }
 
 .socials__link--facebook {
-    background: url("../img/facebook.png");
+    background: url('../img/social_sprites.png') -10px -10px;
 }
 
 .socials__link--facebook:hover {
-    background: url("../img/facebook_hover.png");
+    background: url('../img/social_sprites.png') -66px -10px;
 }
 
 .socials__link--inst {
-    background: url("../img/inst.png");
+    background: url('../img/social_sprites.png') -10px -66px;
 }
 
 .socials__link--inst:hover {
-    background: url("../img/inst_hover.png");
+    background: url('../img/social_sprites.png') -122px -10px;
 }
 
 .footer .contacts {

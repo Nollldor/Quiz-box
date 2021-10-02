@@ -53,6 +53,7 @@
 
 .games .paginator__link {
     color: black;
+    transition: 1s;
 }
 
 .games .paginator__link--active {
