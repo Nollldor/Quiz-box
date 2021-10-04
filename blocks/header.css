@@ -26,9 +26,14 @@ header {
     height: 27px;
 }
 
-.logo__icon{
+.logo__icon {
     max-width: inherit;
     max-height: inherit;
+    transition: box-shadow 0.3s;
+}
+
+.logo__icon:hover {
+    box-shadow: 0px 10px 30px 0px rgba(173, 60, 234, 0.15);
 }
 
 .header .menu {
@@ -57,7 +62,7 @@ header {
     text-decoration: none;
     text-align: center;
     color: #fff;
-    transition: color 1s;
+    transition: color 0.3s;
 }
 
 .menu__link:hover{
@@ -77,6 +82,11 @@ header {
     line-height: 16px;
     text-decoration: none;
     color: #FFFFFF;
+    transition: color 0.3s;
+}
+
+.contacts__phone:hover {
+    color: #8F00FF;
 }
 
 .dropdown {
@@ -113,7 +123,7 @@ header {
     border-radius: 5px;
     top: 190%;
     right: 0;
-    transition: opacity 1s, background-color 1s;
+    transition: opacity 0.3s, background-color 0.3s;
 }
 
 .dropdown__container:before {
@@ -126,7 +136,7 @@ header {
     height: 0;
     border-bottom-color: #EDEDED;
     content: "";
-    transition: opacity 1s;
+    transition: opacity 0.3s;
 }
 
 .dropdown__container:after {
@@ -145,7 +155,7 @@ header {
     font-size: 13px;
     line-height: 1.62em;
     opacity: 0;
-    transition: opacity 1
+    transition: opacity 0.3s;
 }
 
 .dropdown__description--bold {

@@ -82,6 +82,12 @@
 
 .controls__tag {
     padding: 10px 15px;
+    border: 1px solid #F4F5F5;
+    transition: border-color 0.3s;
+}
+
+.controls__tag:hover {
+    border-color: #8F00FF;
 }
 
 .controls__checkbox {
@@ -90,7 +96,7 @@
 
 .button-grey {
     background: #8E8E8E;
-    transition: background-color 1s;
+    transition: background-color 0.3s;
 }
 
 .button-grey:hover {
