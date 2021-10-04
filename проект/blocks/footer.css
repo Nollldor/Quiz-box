@@ -1,0 +1,122 @@
+.footer {
+    height: 146px;
+    padding-top: 42px;
+    background: #17191C;
+}
+
+.footer--mainpage {
+    padding-top: 23px;
+}
+
+.footer__container,
+.footer__left,
+.footer__right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left {
+    width: 620px;
+}
+
+.footer__right {
+    width: 507px;
+}
+
+.footer .logo {
+    margin-top: 20px;
+}
+
+.footer .menu__list,
+.footer .socials {
+    display: flex;
+}
+
+.footer .menu {
+    width: 365px;
+    height: 27px;
+    margin-top: 25px;
+    margin-left: 20px;
+    
+}
+
+.footer .menu__list {
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+
+.footer .socials {
+    width: 174px;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-left: 68px;
+}
+
+.socials__item{
+    display: flex;
+    margin-right: 6px;
+}
+
+.socials__item:last-child {
+   margin-right: 0px;
+}
+
+.socials__link {
+    width: 36px;
+    height: 36px;
+}
+
+.socials__link--telegram {
+    background: url('../img/social_sprites.png') -66px -66px;
+}
+
+.socials__link--telegram:hover {
+    background: url('../img/social_sprites.png') -122px -66px;
+}
+
+.socials__link--vk {
+    background: url('../img/social_sprites.png') -10px -122px;
+}
+
+.socials__link--vk:hover {
+    background: url('../img/social_sprites.png') -66px -122px;
+}
+
+.socials__link--facebook {
+    background: url('../img/social_sprites.png') -10px -10px;
+}
+
+.socials__link--facebook:hover {
+    background: url('../img/social_sprites.png') -66px -10px;
+}
+
+.socials__link--inst {
+    background: url('../img/social_sprites.png') -10px -66px;
+}
+
+.socials__link--inst:hover {
+    background: url('../img/social_sprites.png') -122px -10px;
+}
+
+.footer .contacts {
+    margin-top: 6px;
+    text-align: right;
+}
+
+ .footer .contacts__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1.82em;
+    text-align: right;
+    color: #9A9A9A;
+    margin-bottom: 3px;
+    
+ }
+
+ .footer--mainpage .contacts__description {
+     margin-bottom: 10px;
+ }

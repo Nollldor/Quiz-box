@@ -1,0 +1,103 @@
+.past-games {
+    height: 579px;
+    margin-bottom: 144px;
+}
+
+.past-games__list {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.past-games h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.361em;
+    margin-bottom: 52px;
+}
+
+.past-games__item {
+    display: flex;
+    align-items: flex-start;
+    height: 393px;
+    width: 554px;
+    margin-right: 28px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.past-games__item:last-child {
+    margin-right: 0px;
+}
+
+.past-games__item:nth-child(1) {
+    background: url("../img/1jan.png");
+}
+
+.past-games__item:nth-child(2) {
+    background: url("../img/8mar.png");
+}
+ 
+.past-games__textbox {
+    padding: 252px 40px 32px 28px;
+    min-height: 179px;
+}
+
+.past-games__date {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.past-games__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.5em;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.past-games__description {
+    font-size: 16px;
+    line-height: 1.31em;
+    display: block;
+}
+
+.paginator {
+    margin-left: 380px;
+}
+
+.paginator__description, .paginator__list {
+    display: inline-block;
+}
+
+.paginator__description {
+    margin-right: 22px;
+    font-size: 16px;
+    line-height: 1.25px;
+}
+
+.paginator__item {
+    display: inline-block;
+    margin-right: 0px;
+}
+.paginator__link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.31em;
+    color:#fff;
+    text-decoration: none;
+    padding: 5px 11px;
+}
+
+.paginator__item--active {
+    background: #8F00FF;
+    border-radius: 50%;
+}
+
+.paginator__item:hover {
+    background: #8F00FF;
+    border-radius: 50%;
+}

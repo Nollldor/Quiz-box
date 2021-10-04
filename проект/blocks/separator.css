@@ -1,0 +1,25 @@
+.separator {
+    background: #17191C;
+    min-height: 360px;
+    display: flex;
+}
+
+.separator__container {
+    background: url("../img/review-banner.png") right -14% bottom no-repeat;
+    height: inherit;
+    display: flex;
+}
+
+.separator__content {
+    width: 35%;
+    align-self: center;
+}
+
+.separator__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.3541em;
+    color: #FFFFFF;
+}
+
+

@@ -1,0 +1,65 @@
+.gamesbox__wrapper {
+    margin-bottom: 60px;
+}   
+   
+.gamesbox {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gamesbox:last-child {
+    margin-bottom: 0px;
+}
+
+.gamesbox__left {
+    width: 460px;
+    height: 333px;
+    background: #010101;
+    border-radius: 5px;
+}
+
+.gamesbox__right {
+    width: 623px;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.gamesbox__title {
+    padding-top: 10px;
+    margin-bottom: 30px;
+
+}
+.gamesbox__title h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.361em;
+}
+
+.gamesbox__description {
+    
+    font-size: 16px;
+    line-height: 1.69em;
+    margin-bottom: 34px;
+}
+
+
+.games .paginator {
+    margin-left: 396px;
+    margin-bottom: 84px;
+}
+
+.games .paginator__link {
+    color: black;
+    transition: .3s;
+}
+
+.games .paginator__link--active {
+    color:white
+}
+
+.games .paginator__link:hover {
+    color: white;
+}

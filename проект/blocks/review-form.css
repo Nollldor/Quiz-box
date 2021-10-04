@@ -1,0 +1,118 @@
+.review-form {
+    background: #F4F5F5;
+    padding-top: 66px;
+}
+
+.review-form__title h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.354em;
+    margin-bottom: 57px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+
+}
+
+.form__input:focus {
+    outline-color: #8F00FF;
+}
+
+.form__input:placeholder {
+    color: #666666;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+
+}
+
+.form__input--textarea {
+    height: 232px;
+    resize: none;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.form__controls-title {
+    width: 38%;
+    margin-right: 4px;
+    padding-top: 13px;
+    color: #1A1B1E;
+    font-size: 18px;
+    line-height: 1.39em;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__item{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.controls__element {
+    cursor: pointer;
+
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #B9EAE4;
+}
+
+.controls__tag {
+    padding: 10px 15px;
+    border: 1px solid #F4F5F5;
+    transition: border-color .3s;
+}
+
+.controls__tag:hover {
+    border-color: #8F00FF;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.button-grey {
+    background: #8E8E8E;
+    transition: background-color .3s;
+}
+
+.button-grey:hover {
+    background: #2B2B2B;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 96px;
+}
+
+.form__button {
+    margin-right: 20px;
+}
+
+.form__button:last-child {
+    margin-right: 0;
+}

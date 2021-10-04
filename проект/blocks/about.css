@@ -1,0 +1,45 @@
+.about {
+    height: 611px;
+    margin-bottom: 10px;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: url("../img/about.png") top left no-repeat;
+}
+
+.about__textbox {
+    align-self: flex-end;
+    width: 785px;
+    height: 455px;
+    background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+    border-radius: 5px;
+    z-index: 10;
+    margin-bottom: 55px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__textbox .title {
+    padding-top: 70px;
+    margin: 0px 0px 37px 81px;
+    font-size: 36px;
+    line-height: 1.361em;
+}
+
+.about__description {
+    width: 502px;
+    margin: 0px 0px 43px 81px;
+    font-size: 16px;
+    line-height: 1.69em;
+}
+
+.about__textbox .button {
+    margin-bottom: 66px;
+    margin-left:  81px;
+    border: 1px solid #FFFFFF;
+}
